@@ -11,7 +11,7 @@ export default async ({ req, res }) => {
   }
 
 
-  const hf = new HfInference(process.env.HUGGINGFACE_ACCESS_TOKEN);
+  const hf = new HfInference('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');
 
   try {
       const completion = await hf.textGeneration({
